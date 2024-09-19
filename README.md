@@ -1,6 +1,8 @@
 # Java Add Binary Numbers
+## Objective
+Write a method named addBinary that accepts as parameters two strings representing binary integers and returns the sum that would result from adding those binary integers. For example, the call of addBinary("1001", "10") returns "1011" because the binary numbers 1001 (9 in base-10) and 10 (2 in base-10) add to produce a result of 1011 (11 in base-10). Note that the number of digits in the two numbers may differ. You may need to "carry" over a digit into the next place; for example, the call of addBinary("1011", "1100") should return "10111".
 
-
+You may assume that both strings will be non-empty and will consist entirely of the characters '0' and '1'. You may not assume that the binary numbers represented would fit into the numeric range of type int nor long. You should not use Java's built-in conversion methods to convert the binary strings into integers.
 
 ## Getting started
 
